@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "196579905115",
+    "firebase_url": "https://purpledocs-52bf9.firebaseio.com",
+    "project_id": "purpledocs-52bf9",
+    "storage_bucket": "purpledocs-52bf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196579905115:android:e3885361aafed26c",
+        "android_client_info": {
+          "package_name": "com.jay.purpledocsassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196579905115-q3dueh86bpkcvscgkuvnkqqhgbaesuan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVClgOjzPEOjOiOSnw-jQmJrflJj12jI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

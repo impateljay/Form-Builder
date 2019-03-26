@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PurpleDocs</string>
+    <string name="question_number">Question Number</string>
+    <string name="question_text">Question Text</string>
+    <string name="add_new_option">Add New Option</string>
+    <string name="save">Save</string>
+    <string name="mandatory">Mandatory</string>
+    <string name="this_question_is_mandatory">This question is mandatory</string>
+    <string name="enter_your_answer">Enter your answer..</string>
+</resources>

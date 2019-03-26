@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jay.purpledocsassignment">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".submitresponse.SubmitResponseListActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <provider
+            android:name=".utility.DatabaseContentProvider"
+            android:authorities="${applicationId}"
+            android:exported="false" />
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="PurpleDocs" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.jay.purpledocsassignment.model.Forms, com.jay.purpledocsassignment.model.Question, com.jay.purpledocsassignment.model.Response" />
+
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".createform.CreateFormActivity" />
+        <activity android:name=".editquestion.EditQuestionActivity" />
+        <activity android:name=".viewresponse.ViewResponseActivity" />
+    </application>
+
+</manifest>
